@@ -1,5 +1,4 @@
 # inputs = eval(input("Enter"))
-# ToDo: Create the logging_decorator() function
 
 
 def logging_decorator(function):
@@ -8,9 +7,6 @@ def logging_decorator(function):
         print(f"Result: {function(*args, *kwargs)}")
 
     return wrapper
-
-
-# ToDo: Use the decorator
 
 
 @logging_decorator
